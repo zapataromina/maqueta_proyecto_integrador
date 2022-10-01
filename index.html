@@ -10,106 +10,114 @@
 </head>
 <body>
     <!-- inicio de la estructura de la página de conf de bs. as.-->
-   <header>
-    <div class="fondoGris">
-        <img src="./assets/imagenes/codoacodo.png" alt="logo de codo a codo">
-        <h2>Conf. Bs. As.</h2>
-        <nav>
-            <a href="#">Inicio</a>           
-            <a href="./pages/Los oradores.html">Los Oradores</a>
-            <a href="./pages/La conferencia.html">La conferencia</a> 
-            <a href="./pages/El lugar y la fecha.html">El lugar y la fecha</a>
-            <a href="./pages/Conviértete en orador.html">Conviértete en orador</a>
-            <a href="./pages/Comprar tickets.html">Comprar tickets</a>
-    </nav>
-
-    </div>
-       
-        <div>
-            <img src="./assets/imagenes/ba1.jpg" alt="imagen bs as" loading="lazy" width="1200">
-            <h1>Conf Bs As</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel repellat quis eum ex aspernatur dignissimos iure? Ratione voluptas, consectetur eligendi rem rerum iusto, voluptatem numquam tempora ipsum quam laborum modi.</p>
-            <a href="">Quiero ser Orador</a>
-            <a href="">Comprar tickets</a>
+   <header class="fondoGris_flex">
+        <div class="logo">
+            <img src="./assets/imagenes/codoacodo.png" alt="logo de codo a codo"loading="lazy" width="20%"  >
+            <h2 >Conf. Bs. As.</h2>
         </div>
+        <nav class="navegador">
+            <a class="colorLink" href="#">Inicio</a>           
+            <a class="colorLink" href="./pages/Los oradores.html">Los Oradores</a>
+            <a class="colorLink" href="./pages/La conferencia.html">La conferencia</a> 
+            <a class="colorLink" href="./pages/El lugar y la fecha.html">El lugar y la fecha</a>
+            <a class="colorLink" href="./pages/Conviértete en orador.html">Conviértete en orador</a>
+            <a class="colorLink" style="color:green; text-decoration: none;" href="./pages/Comprar tickets.html">Comprar tickets</a>
+        </nav>
     </header>
-<main>
-    <div>
-        <h4>Conoce a los</h4>
-        <h2>Oradores</h2>
-    </div>
-    <div>
-        <img src="./assets/imagenes/steve.jpg" alt="Steve Jobs sonriendo" width="300" loading="Lazy">
-        <h3>Steve Jobs</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt optio suscipit earum incidunt assumenda, architecto molestias voluptatibus eligendi harum! Recusandae nobis odit nesciunt cumque, tempora ipsam. Consequatur expedita architecto quo?</p>
-        
-    </div>
-    <br>
-    <br>
-    <div>
-        <img src="./assets/imagenes/bill.jpg" alt="Bill Gastes" width="300" loading="Lazy">
-        <h3>Bill Gates</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt optio suscipit earum incidunt assumenda, architecto molestias voluptatibus eligendi harum! Recusandae nobis odit nesciunt cumque, tempora ipsam. Consequatur expedita architecto quo?</p>
-    </div>
-    <br>
-    <br>
-    <div>
-        <img src="./assets/imagenes/ada.jpeg" alt="Ada Lovelace " width="300" loading="lazy">
-        <h3>Ada Lovelace</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt optio suscipit earum incidunt assumenda, architecto molestias voluptatibus eligendi harum! Recusandae nobis odit nesciunt cumque, tempora ipsam. Consequatur expedita architecto quo?</p>
-    </div>
-</main>>
-<br>
- <section>
-    <img src="./assets/imagenes/honolulu.jpg" alt="imagen bs.as." >
-    <div><h2>Bs As - Octubre </h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum exercitationem distinctio rerum illum dolor necessitatibus, possimus quas expedita deserunt dolores, tenetur voluptatum, quae magnam molestiae quia at. Quasi, eius aut.</p>
-        <a href="">Conocé más</a>
-    </div>
+    <main>
+         <section class="imagenPrincipal">
+            <div class="parrafo">
+                <h1><b> Conf Bs As</b></h1>
+                <p ><b> Bs As llega por primera vez a Argentina. Un evento para  compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores del primer nivel que tenemos para ti. Te esperamos!</b></p>
+                <a class="link" " href=""><b>Quiero ser Orador</b></a> 
+                <div class="green">
+                <a class="colorLink" style="border: 0;"><b>Comprar tickets</b></a>
+                </div>
+            </div>
+        </section>
+    </main>
 
- </section>       
+    <section>
+        <div class="titulo">
+            <h5>CONOCE A LOS</h5>
+            <h2>  <bold>ORADORES</bold> </h2>
+        </div>
+        <div class=contenedor_flex>
+            <div   class="tarjeta">
+                 <img class=" img" src="./assets/imagenes/steve.jpg" alt="Steve Jobs sonriendo" width="100%"  loading="Lazy">
+                <div  class="parrafoTarjeta"   >
+                    <a class="java" href=""><span> <b>JavaScrip</b></span></a>
+                    <a class="react" href=""><span><b>React</b></span></a>
+                    <h3>Steve Jobs</h3> <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt optio suscipit earum incidunt assumenda, architecto molestias voluptatibus eligendi harum! Recusandae nobis odit nesciunt cumque, tempora ipsam. Consequatur expedita architecto quo?</p>
+                 </div>
+             </div>
+            <div   class="tarjeta">
+                <img class="img" src="./assets/imagenes/bill.jpg" alt="Bill Gates" width="100%" loading="Lazy">
 
- <section>
-    <!--aca va el formulario-->
-    <h4>CONVIÉRTETE EN UN</h4>
-    <h3>ORADOR</h3>
-    <P>Anótate como orador para dar una <span><ins> charla ignite</ins></span> . Cuéntanos de qué quieres hablar!</P>
-    <form action="">
-        <div>
-            <input type="text" placeholder="Nombre">
-            <input type="text" placeholder="Apellido">
+                <div  class="parrafoTarjeta" >
+                    <a class="java" href=""><span> <b>JavaScrip</b></span></a>
+                    <a class="react" href=""><span><b>React</b></span></a>
+                    <h3>Bill Gates</h3>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt optio suscipit earum incidunt assumenda, architecto molestias voluptatibus eligendi harum! Recusandae nobis odit nesciunt cumque, tempora ipsam. Consequatur expedita architecto quo?</p>
+                </div>
+            </div>
+       
+            <div  class="tarjeta" >
+                <img class="img" src="./assets/imagenes/ada.jpeg" alt="Ada Lovelace " width="100%" loading="lazy">
+                <div  class="parrafoTarjeta" >
+                    <a class="negocios"  href=""><span> <b>Negocios</b></span></a>
+                    <a class="startups" href="">Startups</a>
+                    <h3>Ada Lovelace</h3> <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt optio suscipit earum incidunt assumenda, architecto molestias voluptatibus eligendi harum! Recusandae nobis odit nesciunt cumque, tempora ipsam. Consequatur expedita architecto quo?</p>
+                </div>
+            </div>
         </div>
-        <br>
-        <textarea name="" id="" cols="50" rows="10" placeholder="Sobre qué quieres hablar?"></textarea>
-        <br>
-        <p>Recuerda incluir un título para tu charla</p>
-        <div>
-            <input type="submit" >
-        </div>
-        
-    </form>
     
- </section>
-<aside>
-    <h2>Propaganda</h2>
-    <img src="" alt="Coca cola">
-</aside>
-<article>
-    <header></header>
-    <h1></h1>
-    <footer></footer>
-</article>
- <footer>
-    <a href="">Preguntas frecuentes</a>
-    <a href="">Contáctanos</a>
-    <a href="">Prensa</a>
-    <a href="">Conferencias</a>
-    <a href="">Terminos y condiciones</a>
-    <a href="">Privacidad</a>
-    <a href="">Estudiantes</a>
- </footer>
-   
- 
+    </section>
+<br>
+    <section class="paginaPartida">
+        <img class="img2" src="./assets/imagenes/honolulu.jpg" alt="imagen bs.as." >
+        <div class="parrafo2">
+            <h2>Bs As - Octubre </h2>
+            <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km² de superficie). </p>
+            <div >
+                <a class="link" href="">Conocé más</a>
+            </div>
+        </div>
+    </section>       
+
+    <section>
+        <div class="titulo">
+            <h5>CONVIÉRTETE EN UN</h5>
+            <h2> <b>ORADOR</b></h2>
+            <P style="font-size: 16px;" >Anótate como orador para dar una <span><ins> charla ignite</ins></span> . Cuéntanos de qué quieres hablar!</P>
   
+        <form action="" >
+            <div >
+                <input type="text" size="37px;" style="padding: 1%; margin-right: 12px;margin-bottom: 12px;" placeholder="Nombre">
+                <input type="text" size= "37px;" style="padding: 1%; margin-bottom: 15px;" placeholder="Apellido">
+            <br>
+                <textarea name="" id="" cols="30" rows="10" style="width: 100%; padding: 3px; " placeholder="Sobre qué quieres hablar?"></textarea>
+       
+                <p class="detalle">Recuerda incluir un título para tu charla</p>
+            <br>
+            <div >
+                <input style="background-color: rgb(141, 204, 83); border-radius:5px ;border: 0px; width: 100%; padding: 0.7em; color: white;" type="submit" >
+             </div>
+            <br>
+        </form>
+        </div>
+    </section>
+ <footer class="footer">
+    <a class="colorLink" href="">Preguntas <br> frecuentes</a>
+    <a class="colorLink" href="">Contáctanos</a>
+    <a class="colorLink" href="">Prensa</a>
+    <a class="colorLink" href="">Conferencias</a>
+    <a class="colorLink" href="">Terminos y <br> condiciones</a>
+    <a class="colorLink" href="">Privacidad</a>
+    <a class="colorLink" href="">Estudiantes</a>
+ </footer>
 </body>
 </html>
