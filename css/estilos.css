@@ -174,9 +174,18 @@ body{
 .img2{
    width: 50%;
 }
+.formulario{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: space-between;
+   padding: 5% 5%;
+   
+}
 .detalle{
    display: flex;
    justify-content: flex-start;
+   margin-left: 2%;
    font-size:.8em;
 }
 .footer{
@@ -214,8 +223,10 @@ body{
    height: 80%;
 }
 .parrafo{
-  text-align: justify ;
-padding-bottom: 10px;;
+   text-align: center ;
+   font-size: 0.8rem;
+   padding: initial;
+   padding-bottom: 10px;
 }
 .parrafo.colorLink{
    text-align: center;
@@ -226,6 +237,10 @@ padding-bottom: 10px;;
 }
 .tarjeta{
    margin-bottom: 1rem;
+}
+.parrafoTarjeta p{
+   padding:0px;
+
 }
 .paginaPartida{
    flex-direction: column;
@@ -238,10 +253,17 @@ padding-bottom: 10px;;
 }
 .titulo{
  width: 50%;
- justify-content: left;
+ justify-content: center;
  align-items: center;
  margin-left: 20%;
  margin-top: 10px;
+}
+.formulario{
+   justify-content: column;
+   align-content: center;
+   width: 50%;
+   margin: initial;
+   
 }
 
 .footer{
